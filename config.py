@@ -1,0 +1,3 @@
+GUILD_ID = 123
+COLOR = "#C9C6FF"
+TOKEN = "123"
