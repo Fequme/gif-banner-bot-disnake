@@ -12,10 +12,8 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 @bot.event
 async def on_ready():
     print(f'Зашёл в {bot.user.name}')
-
-
-    guild_id = GUILD_ID  
-    guild = bot.get_guild(guild_id)
+    
+    guild = bot.get_guild(GUILD_ID)
     
     if guild:
         banner_loop.start(guild)
